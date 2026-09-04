@@ -1,0 +1,18 @@
+[package]
+name = "xccute_commands"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+license = "MIT OR Apache-2.0"
+description = "Typed builders for the shell commands people actually run: ls, cp, curl, kill, sudo, grep, git, cargo and their families, each a struct with setters that renders one command string."
+authors = ["James Hunt <james@1o.business>"]
+repository = "https://github.com/jameshuntt/xccute_commands"
+readme = "README.md"
+keywords = ["cli", "shell", "command", "builder"]
+categories = ["command-line-interface"]
+include = ["src/**", "tests/**", "Cargo.toml", "README.md", "LICENSE-MIT", "LICENSE-APACHE"]
+
+[dependencies]
+simple_impl = { version = "0.1.7", path = "../simple_impl" }
+simple_impl_derive = { version = "0.2.1", path = "../simple_impl_derive" }
+xccute_runtime = { version = "0.1.0", path = "../xccute_runtime" }
