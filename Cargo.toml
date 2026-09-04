@@ -15,4 +15,4 @@ include = ["src/**", "tests/**", "Cargo.toml", "README.md", "LICENSE-MIT", "LICE
 [dependencies]
 simple_impl = { version = "0.1.7", path = "../simple_impl" }
 simple_impl_derive = { version = "0.2.1", path = "../simple_impl_derive" }
-xccute_runtime = { version = "0.1.0", path = "../xccute_runtime" }
+xccute_runtime = { version = "0.1.1", path = "../xccute_runtime" }
