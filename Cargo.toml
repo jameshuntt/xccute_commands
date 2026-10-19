@@ -2,7 +2,7 @@
 name = "xccute_commands"
 version = "0.1.1"
 edition = "2021"
-rust-version = "1.70"
+rust-version = "1.85"
 license = "MIT OR Apache-2.0"
 description = "Typed builders for the shell commands people actually run: ls, cp, curl, kill, sudo, grep, git, cargo and their families, each a struct with setters that renders one command string."
 authors = ["James Hunt <james@1o.business>"]

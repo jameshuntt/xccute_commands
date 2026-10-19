@@ -38,6 +38,11 @@ Each builder is `#[derive(SimpleImpl)]` from
 struct's attributes are the whole definition, and a test per family pins
 the exact string every builder renders.
 
+## Releasing
+
+Bump `version` in Cargo.toml, add a dated `## <version> (YYYY-MM-DD)` entry to CHANGELOG.md, and push to
+`main`. CI (.github/workflows/ci.yml) runs the tests and clippy, then publishes that version to crates.io.
+
 ## License
 
 MIT OR Apache-2.0.
